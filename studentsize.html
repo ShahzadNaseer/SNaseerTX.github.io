@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Visualizations - School Type</title>
+    <title>Student Count by School Type</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="navigate">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" style="background-color: salmon;" href="index.html">School Type</a>
+                <a class="navbar-brand" style="background-color: salmon;" href="index.html">School Type</a>
             <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarPlotDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,14 +21,14 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Plots</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="studentbudget.html">Per Student Budget</a>
-                            <a class="dropdown-item" href="studentsize.html">Student Count by School Type</a>
-                            <a class="dropdown-item" href="schooltype.html">Passing Rate by School Type</a>
-                            <a class="dropdown-item" href="schoolsize.html">Passing Rate by School Size</a>
-                        </div>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="studentbudget.html">Per Student Budget</a>
+                                    <a class="dropdown-item" href="studentsize.html">Student Count by School Type</a>
+                                    <a class="dropdown-item" href="schooltype.html">Passing Rate by School Type</a>
+                                    <a class="dropdown-item" href="schoolsize.html">Passing Rate by School Size</a>
+                            </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item"> 
                         <a class="nav-link" href="compare.html">Comparison</a>
                     </li>
                     <li class="nav-item">
@@ -38,34 +38,25 @@
             </div>
         </nav>
     </div>
-    <div class="container">
-        <div class="row" style="padding-bottom: 30px;">
-            <div class="col-lg-7 col-md-12">
-                <!-- LHS box  -->
-                <div class="box">
-                    <h4 class="title">Charter Vs District Schools</h4>
-                    <hr>
-                    <img src="Resources/images/private-vs-charter-1910.png" class="vizualization rounded float-left" alt="Charter Vs District Schools">
-                    <p>
-                            In AcademyPy example, we were asked to analyze the district-wide standardized test results. We have the access to every student's math and reading scores, as well as various information on the schools they attend. Our responsibility is to aggregate the data to and showcase obvious trends in school performance.
-                            <br/><br/>
-                            Our main focus was on finding the key differences between Charter and District schools:<br/><br/>
-
-
-                            * Per Student Budget by School Type<br/>
-                            * Student Petcentage by School Type<br/>
-                            * Passing Rate by School Type<br/>
-                            * Passig Rate by School Size<br/>
-        
-                    </p>
-                </div>
-            </div>
+<!-- Content Section -->
+<div class="container">
+        <div class="row">
+                <div class="col-lg-7 col-md-12">
+                        <!-- Left box  -->
+                        <div class="box">
+                          <h4 class="title">Students per School Type</h4>
+                          <hr>
+                          <img src="Resources/images/StudentTotal.png"  alt="Students per School Type">
+                          <p>Work in Process.</p>
+                          
+                        </div>
+                      </div>
             <div class="col-lg-5 col-md-12">
             <!-- RHS Box -->
             <div class="box">
               <h4 class="title">Visualizations</h4>
               <hr>
-                <div class="container">
+              <div class="container">
                     <div class="row" style="padding-bottom: 30px;">
                         <div class="col-6">
                             <a href="studentbudget.html">
